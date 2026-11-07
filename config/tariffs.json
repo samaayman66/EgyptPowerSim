@@ -1,0 +1,134 @@
+
+{
+  "default_schedule": "egyptera_2026_04",
+  "schedules": {
+    "egyptera_2026_04": {
+      "label": "EgyptERA Residential Tariff - April 2026",
+      "effective_from": "2026-04-01",
+      "status": "published_official",
+      "team_checked": false,
+      "source_url": "https://egyptera.org/en/TarrifApril2026.aspx",
+      "service_fee_status": "unverified",
+      "notes": "Energy rates from the published EgyptERA schedule. The project team has not completed independent verification. Service fees are candidate values, not confirmed official charges.",
+      "categories": [
+        {
+          "max_kwh": 50,
+          "bands": [
+            [0, 50, 68]
+          ],
+          "service_fee_egp": 1
+        },
+        {
+          "max_kwh": 100,
+          "bands": [
+            [0, 50, 68],
+            [50, 100, 78]
+          ],
+          "service_fee_egp": 2
+        },
+        {
+          "max_kwh": 200,
+          "bands": [
+            [0, 200, 95]
+          ],
+          "service_fee_egp": 6
+        },
+        {
+          "max_kwh": 350,
+          "bands": [
+            [0, 200, 95],
+            [200, 350, 155]
+          ],
+          "service_fee_egp": 11
+        },
+        {
+          "max_kwh": 650,
+          "bands": [
+            [0, 200, 95],
+            [200, 350, 155],
+            [350, 650, 195]
+          ],
+          "service_fee_egp": 15
+        },
+        {
+          "max_kwh": 1000,
+          "bands": [
+            [0, 1000, 210]
+          ],
+          "service_fee_egp": 25
+        },
+        {
+          "max_kwh": null,
+          "bands": [
+            [0, null, 258]
+          ],
+          "service_fee_egp": 40
+        }
+      ]
+    },
+    "reported_2026_08": {
+      "label": "August 2026 Residential Tariff - Reported",
+      "effective_from": "2026-08-01",
+      "status": "reported_unverified",
+      "team_checked": false,
+      "source_url": "https://enterpriseam.com/egypt/2026/08/02/household-electricity-tariffs-hiked-by-an-average-of-12/",
+      "service_fee_status": "unverified",
+      "notes": "Reported tariff values from EnterpriseAM, 2 August 2026. Other published sources differ. Not confirmed against an official EgyptERA schedule. Service fees are unverified candidate values.",
+      "categories": [
+        {
+          "max_kwh": 50,
+          "bands": [
+            [0, 50, 68]
+          ],
+          "service_fee_egp": 1
+        },
+        {
+          "max_kwh": 100,
+          "bands": [
+            [0, 50, 68],
+            [50, 100, 87]
+          ],
+          "service_fee_egp": 2
+        },
+        {
+          "max_kwh": 200,
+          "bands": [
+            [0, 200, 106]
+          ],
+          "service_fee_egp": 6
+        },
+        {
+          "max_kwh": 350,
+          "bands": [
+            [0, 200, 106],
+            [200, 350, 174]
+          ],
+          "service_fee_egp": 11
+        },
+        {
+          "max_kwh": 650,
+          "bands": [
+            [0, 200, 106],
+            [200, 350, 174],
+            [350, 650, 218]
+          ],
+          "service_fee_egp": 15
+        },
+        {
+          "max_kwh": 1000,
+          "bands": [
+            [0, 1000, 235]
+          ],
+          "service_fee_egp": 25
+        },
+        {
+          "max_kwh": null,
+          "bands": [
+            [0, null, 289]
+          ],
+          "service_fee_egp": 40
+        }
+      ]
+    }
+  }
+}
